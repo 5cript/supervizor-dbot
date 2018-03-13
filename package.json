@@ -1,0 +1,39 @@
+{
+  "name": "supervizor-dbot",
+  "version": "0.0.1",
+  "description": "A discord bot for channel message supervision (rolling chat and clearing)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5cript/supervizor-dbot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "5cript",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/5cript/supervizor-dbot/issues"
+  },
+  "homepage": "https://github.com/5cript/supervizor-dbot#readme",
+  "dependencies": {
+    "bufferutil": "^3.0.3",
+    "discord.js": "^11.3.2",
+    "lodash": "^4.17.5",
+    "node-opus": "^0.2.7",
+    "uws": "^9.14.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "sleep": "^5.1.1"
+  }
+}

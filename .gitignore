@@ -1,0 +1,4 @@
+resources/bot_data.json
+node_modules/*
+bin/*
+.vscode/*
